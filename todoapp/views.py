@@ -38,3 +38,4 @@ class TaskListLoginView(LoginView):
 
     def get_success_url(self):
         return reverse_lazy("tasks")
+    
