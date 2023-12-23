@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(0, 208, 255);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top : 55px;
+    padding-top : 55px;
+}
+
+.todoAppWrapper {
+    max-width : 530px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+a {
+    color: gray;
+    text-decoration : none;
+}
+
+h1 {
+    margin : 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,114,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.taskWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.336);
+}
