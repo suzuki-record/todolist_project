@@ -39,3 +39,92 @@ h1 {
     padding: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.336);
 }
+
+.taskTitle {
+    display: flex;
+    align-items: center;
+}
+
+.taskCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.taskInCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.loginAndLogout {
+    color: lightcoral;
+}
+
+.editButtun {
+    color: lightgreen;
+}
+
+.deleteButtun {
+    color: red;
+}
+
+/* タスクの検索と追加のフォーム*/
+.searchWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchInput {
+    height: 24px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px !important;
+}
+
+.searchButtun {
+    border: 1px solid rgb(1, 6, 3);
+    padding: 4px 10px;
+    background-color: rgba(255, 255, 255, 0.588);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.searchButtun:hover {
+    background-color: gray;
+    color: white;
+}
+
+.addButtun {
+    font-size: 32px;
+    color: black;
+}
+
+label {
+    display: block;
+}
+
+input[type = "text"],
+textarea {
+    width: 100%;
+}
+
+.accountWrapper {
+    padding: 10px;
+}
+
+.accountWrapper p {
+    margin: 0;
+    padding: 0;
+}
